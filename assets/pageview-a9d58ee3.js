@@ -1,0 +1,1 @@
+import{_ as n}from"./app-f8b7c07e.js";const r=async()=>{try{const{pageviewCount:t}=await n(()=>import("./app-f8b7c07e.js").then(e=>e.M),[]);return t({serverURL:"https://waline.newzone.top"})}catch{console.error("@waline/client is not installed!");return}};export{r as updatePageview};
